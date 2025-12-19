@@ -1,3 +1,6 @@
+## 📸 Preview
+![Preview Website](https://javaanggara.github.io/website-umkm/preview.png)
+
 # Website E-Catalog UMKM
 
 Website E-Catalog UMKM dengan desain modern dan responsif.
