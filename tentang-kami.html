@@ -2,52 +2,147 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Tentang Kami | E-Catalog UMKM</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <title>Tentang Kami | E-Catalog UMKM</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    /* ===== NAVBAR ===== */
+    nav {
+      background: #020617;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h2 {
+      color: #00ffd5;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #e5e7eb;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover {
+      color: #00ffd5;
+    }
+
+    /* ===== HEADER ===== */
+    .header {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .header p {
+      color: #cbd5f5;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    /* ===== CONTENT ===== */
+    .container {
+      max-width: 1100px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .section h3 {
+      color: #00ffd5;
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+    }
+
+    .section p {
+      color: #cbd5f5;
+      margin-bottom: 10px;
+    }
+
+    /* ===== VISION MISSION ===== */
+    .vm {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    .card h4 {
+      color: #00ffd5;
+      margin-bottom: 10px;
+    }
+
+    /* ===== VALUES ===== */
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .value-box {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .value-box h5 {
+      color: #00ffd5;
+      margin-bottom: 10px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      color: #94a3b8;
+      margin-top: 60px;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .vm {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="logo">UMKM Catalog</div>
-  <ul>
-    <li><a href="index.html">Beranda</a></li>
-    <li><a href="tentang-kami.html" class="active">Tentang Kami</a></li>
-    <li><a href="kontak-kami.html">Kontak</a></li>
-  </ul>
-</nav>
-
-<section class="page-header">
-  <h1>Tentang Kami</h1>
-  <p>Mendukung UMKM Lokal Menuju Digitalisasi</p>
-</section>
-
-<section class="content">
-  <h2>Siapa Kami?</h2>
-  <p>
-    Website E-Catalog UMKM ini dibuat sebagai platform digital untuk
-    mempertemukan pelaku UMKM dengan konsumen secara langsung, aman,
-    dan transparan.
-  </p>
-
-  <h2>Visi</h2>
-  <p>
-    Menjadi platform digital unggulan yang membantu UMKM Indonesia
-    berkembang melalui teknologi.
-  </p>
-
-  <h2>Misi</h2>
-  <ul>
-    <li>Mempermudah promosi produk UMKM</li>
-    <li>Menyediakan transaksi online yang aman</li>
-    <li>Mendukung pembayaran digital</li>
-    <li>Meningkatkan daya saing UMKM</li>
-  </ul>
-</section>
-
-<footer>
-  <p>© 2025 E-Catalog UMKM. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
+  <!-- NAVBAR -->
+  <
