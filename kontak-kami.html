@@ -2,37 +2,44 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Tentang Kami | UMKM Catalog</title>
+  <title>Kontak Kami | E-Catalog UMKM</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="page-header">
-    <h1>Tentang Kami</h1>
-    <p>Mendukung UMKM Lokal Menuju Digitalisasi</p>
-  </div>
+<nav class="navbar">
+  <div class="logo">UMKM Catalog</div>
+  <ul>
+    <li><a href="index.html">Beranda</a></li>
+    <li><a href="tentang-kami.html">Tentang Kami</a></li>
+    <li><a href="kontak-kami.html" class="active">Kontak</a></li>
+  </ul>
+</nav>
 
-  <div class="content">
-    <h2>Siapa Kami?</h2>
-    <p>
-      Website E-Catalog UMKM ini dibuat sebagai platform digital
-      untuk mempertemukan pelaku UMKM dengan konsumen secara langsung,
-      aman, dan transparan.
-    </p>
+<section class="page-header">
+  <h1>Kontak Kami</h1>
+  <p>Hubungi kami untuk informasi lebih lanjut</p>
+</section>
 
-    <h2>Visi</h2>
-    <p>
-      Menjadi platform digital unggulan yang membantu UMKM Indonesia
-      berkembang melalui teknologi.
-    </p>
+<section class="content">
+  <form class="contact-form">
+    <label>Nama Lengkap</label>
+    <input type="text" placeholder="Nama Anda" required>
 
-    <h2>Misi</h2>
-    <ul>
-      <li>Mempermudah promosi produk UMKM</li>
-      <li>Menyediakan transaksi online yang aman</li>
-      <li>Mendukung pembayaran digital</li>
-    </ul>
-  </div>
+    <label>Email</label>
+    <input type="email" placeholder="Email Anda" required>
+
+    <label>Pesan</label>
+    <textarea placeholder="Tulis pesan..." required></textarea>
+
+    <button type="submit">Kirim Pesan</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 E-Catalog UMKM</p>
+</footer>
 
 </body>
 </html>
