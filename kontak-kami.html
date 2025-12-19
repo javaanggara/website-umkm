@@ -2,92 +2,69 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Kontak Kami | E-Catalog UMKM</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak Kami | UMKM Catalog</title>
+
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+    }
+
     .page-header {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  padding: 60px 20px;
-  text-align: center;
-  color: #fff;
-}
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      padding: 60px 20px;
+      text-align: center;
+      color: #fff;
+    }
 
-.content {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
-  color: #eaeaea;
-}
+    .content {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-.content h2 {
-  margin-top: 30px;
-  color: #00ffd5;
-}
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
 
-.content ul {
-  padding-left: 20px;
-}
+    .contact-form input,
+    .contact-form textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      background: #1e293b;
+      color: #fff;
+    }
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  padding: 12px;
-  border-radius: 6px;
-  border: none;
-  background: #1e1e1e;
-  color: #fff;
-}
-
-.contact-form button {
-  padding: 12px;
-  background: #00ffd5;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
+    .contact-form button {
+      padding: 12px;
+      background: #00ffd5;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="logo">UMKM Catalog</div>
-  <ul>
-    <li><a href="index.html">Beranda</a></li>
-    <li><a href="tentang-kami.html">Tentang Kami</a></li>
-    <li><a href="kontak-kami.html" class="active">Kontak</a></li>
-  </ul>
-</nav>
+  <div class="page-header">
+    <h1>Kontak Kami</h1>
+    <p>Hubungi kami untuk kerja sama atau pertanyaan</p>
+  </div>
 
-<section class="page-header">
-  <h1>Kontak Kami</h1>
-  <p>Hubungi kami untuk informasi lebih lanjut</p>
-</section>
-
-<section class="content">
-  <form class="contact-form">
-    <label>Nama Lengkap</label>
-    <input type="text" placeholder="Nama Anda" required>
-
-    <label>Email</label>
-    <input type="email" placeholder="Email Anda" required>
-
-    <label>Pesan</label>
-    <textarea placeholder="Tulis pesan..." required></textarea>
-
-    <button type="submit">Kirim Pesan</button>
-  </form>
-</section>
-
-<footer>
-  <p>© 2025 E-Catalog UMKM</p>
-</footer>
+  <div class="content">
+    <form class="contact-form">
+      <input type="text" placeholder="Nama">
+      <input type="email" placeholder="Email">
+      <textarea rows="5" placeholder="Pesan"></textarea>
+      <button type="submit">Kirim Pesan</button>
+    </form>
+  </div>
 
 </body>
 </html>
